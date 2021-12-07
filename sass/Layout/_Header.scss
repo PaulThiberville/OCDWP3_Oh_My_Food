@@ -1,0 +1,26 @@
+header
+{
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    h1
+    {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .__back-button
+        {
+            position: absolute;
+            left:0;
+            padding: 10px 20px;
+            i
+            {
+                font-size: 20px;
+            }
+        }        
+}
