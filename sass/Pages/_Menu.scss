@@ -1,0 +1,70 @@
+.image-container
+{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    img
+    {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__top-menu
+    {
+        background-color: $light-grey;
+        width: 100%;
+        height: 30px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+.heading
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $light-grey;
+    padding: 0 20px 20px 20px;
+}
+
+.menu-section
+{
+    padding: 0 20px 0 20px;
+    &__heading
+    {
+        font-weight: 100;
+        text-transform: uppercase;
+        position: relative;
+        &::before
+        {
+            content: "";
+            width:50px;
+            border-bottom: solid $tertiary-color 3px;
+            position: absolute;
+            left:0;
+            bottom: -5px;
+        }
+    }
+    &__item-container
+    {
+        animation: Pop 0.5s Linear;
+        max-height: 0px;
+        animation-fill-mode: forwards;
+        padding-bottom: 30px;
+    }
+}
+
+.purchase-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+  

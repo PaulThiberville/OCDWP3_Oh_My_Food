@@ -1,0 +1,76 @@
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  80% {
+    opacity: 0.3;
+    top: 0px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes Pop {
+  from {
+    max-height: 0px;
+  }
+  to {
+    max-height: 300px;
+  }
+}
+
+@keyframes TextRotation {
+  0% {
+  }
+  65% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+  }
+  15% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes Show {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  99% {
+    opacity: 0;
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    height: auto;
+  }
+}
+
+@keyframes Hide {
+  0% {
+    opacity: 1;
+    height: auto;
+    margin-top: 300px;
+  }
+  99% {
+    opacity: 1;
+    height: auto;
+    margin-top: 300px;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    margin-top: 0px;
+  }
+}
