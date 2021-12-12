@@ -1,0 +1,14 @@
+/* accueil */
+.card {
+  width: 23.5%;
+}
+
+/* menu */
+main .menu-center {
+  width: 100%;
+}
+main .menu-center .menu-section {
+  width: 33.333%;
+}
+
+/*# sourceMappingURL=desktop.css.map */
